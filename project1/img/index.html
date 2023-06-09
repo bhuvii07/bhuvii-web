@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>best online food delivery</title>
+</head>
+<style>
+    #navbar{
+    position: relative;
+}
+#navbar{
+display: flex;
+align-items: center;
+}
+/* logo and images */
+#logo{
+ margin: 10px 45px;
+}
+#logo img{
+margin: 3px 3px;
+height: 70px;
+}
+#navbar ul{
+display: flex;
+}
+#navbar::before{
+content: "";
+background-color: black;
+position: absolute;
+height: 100%;
+width: 100%;
+ z-index: -1;
+ opacity: 0.4;
+}
+#navbar ul li{
+list-style: none;
+font-size: 1.3rem;
+}
+#navbar ul li a{
+color: white;
+display: block;
+padding: 0px 10px;
+border-radius: 1px 1px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+}
+/*home section */
+#home{
+display: flex;
+flex-direction: column;
+padding: 3px 200px;
+justify-content: center;
+align-items: center;
+}
+#home::before{
+content: "";
+background: url('./camera.jpg');
+position: absolute;
+height: 100%;
+width: 100%;
+ z-index: -1;
+ opacity: 0.4;
+}
+</style>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="fliqalogo.jpg" alt="myonlinemeal.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#">home </a></li>
+            <li class="item"><a href="#">services </a></li>
+            <li class="item"><a href="#">Portfolio </a></li>
+            <li class="item"><a href="#">Community </a></li>
+            <li class="item"><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        
+        <h1 class="h-primary">welcome to my online meal</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        <button class="btn">order now</button>
+    </section>
+</body>
+</html>

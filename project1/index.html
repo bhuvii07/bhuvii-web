@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen and (max-width:1170)" href="css/phone.css">
+    <title>best online food delivery</title>
+</head>
+<style>
+    #navbar{
+    position: relative;
+    width: 112.3%;
+}
+#navbar{
+display: flex;
+align-items: center;
+position: relative;
+}
+/* logo and images */
+#logo{
+ margin: 10px 45px;
+}
+#logo img{
+margin: 3px 3px;
+height: 70px;
+}
+#navbar ul{
+display: flex;
+}
+#navbar::before{
+content: "";
+background-color: black;
+position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+ z-index: -1;
+ opacity: 0.4;
+}
+#navbar ul li{
+list-style: none;
+font-size: 1.3rem;
+}
+#navbar ul li a{
+color: white;
+display: block;
+padding: 0px 10px;
+border-radius: 1px 1px;
+text-decoration: none;
+}
+#navbar ul li a:hover{
+color: black;
+background-color: white;
+}
+#navbar button{
+    text-align: right;
+}
+/*home section */
+#home{
+display: flex;
+flex-direction: column;
+padding: 3px 200px;
+justify-content: center;
+align-items: center;
+
+}
+#home img {
+    height: 500px;
+    width: 200%;
+
+}
+#home h1{
+    font-size: larger;
+    height: 20%;
+}
+#home text{
+    padding: 20px;
+    border: 3px solid black;
+    margin: 3px auto;
+    border-radius: 10px;
+}
+ /*service section */
+ #services {
+    margin: 34px;
+    display: flex;
+ }
+ #services .box{
+    border: 2px solid green;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: grey;
+ }
+ #services .box img{
+    height: 180px;
+    margin: auto;
+    display: block;
+    width: 210px;
+ }
+#services .box p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#container img{
+    height: 250px;
+    width: 112.3%;
+}
+#container{
+
+flex-direction: column;
+padding: 3px 200px;
+
+
+}
+#container{
+    
+    background: url(design.jpg);
+    height: 250px;
+    width: 75%;
+}
+#client {
+    margin: 34px;
+    display: flex;
+ }
+ #client .box{
+    border: 2px solid green;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: grey;
+ }
+ #client .box img{
+    height: 180px;
+    margin: auto;
+    display: block;
+    width: 210px;
+ }
+#client .box p{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#client button{
+    
+text-align: center;
+
+}
+body {
+    background-color: bisque;
+}
+</style>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="fliqalogo.jpg" alt="fliqaindia.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">HOME</a></li>
+            <li class="item"><a href="#services">SERVICES</a></li>
+            <li class="item"><a href="#blogs">BLOGS</a></li>
+            <li class="item"><a href="#community">COMMUNITY</a></li>
+            <li class="item"><a href="#portfolio">PORTFOLIO</a></li>
+            <button class="btn"> SIGN UP</button>
+            <button class="btn">SIGN IN</button>
+        </ul>
+    </nav>
+    
+    <section id="home">
+        <img src="camera.jpg">
+        <h1>INDIAS LEADING CREATIVE PLATFORM</h1>
+        <p>Experience Hussle Free Bookings. Trusted by 2500+ Customers.</p>
+        <input type="text" name="" placeholder="Search service, blog and many more.">
+        <button class="btn">SEARCH</button>
+    </section>
+    <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <p>Discover the Range of Services provided by Fliqaindia</p>
+        <div id="services">
+        <div class="box">
+        <img src="prewedding.jpg" alt="">
+        <h2 class="h-secondary center">Pre Wedding Photoshoot</h2>
+        <p class="center">starting at 25000 (One day)</p>
+        </div>
+        <div class="box">
+            <img src="wedding.webp" alt="">
+            <h2 class="h-secondary center">Wedding Photoshoot</h2>
+            <p class="center">starting at 65000 (Two day)</p>
+            </div>
+            <div class="box">
+                <img src="portfolio.jpg" alt="">
+                <h2 class="h-secondary center">Portfolio shoot</h2>
+                <p class="center">starting at 25000 (standard price for 6-8 hours)</p>
+                </div>
+                <div class="box">
+                    <img src="baby.webp" alt="">
+                    <h2 class="h-secondary center">Pre Wedding Photoshoot</h2>
+                    <p class="center">starting at 15000 (One day)</p>
+                    </div>
+        </div>
+    </section>
+    <section id="container">
+    <h3 class="h-secondary">DISCOVER GRAPHIC DESIGN IDEAS AND SERVICES</h3>
+    <p>FROM BRANDING TO MARKETING</p>
+    <input type="text" name="" placeholder="What kind of Design you are Looking For.">
+        <button class="btn">SEARCH</button>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Blogs</h1>
+        <p>Check out our Latest Blog</p>
+        <div id="client">
+            <div class="box">
+                <img src="wed2.jpg" alt="">
+                <h2 class="h-secondary center">Marcus and Elish</h2>
+                <p class="center">38 photos, Ahmedabad,India</p>
+            </div>
+            <div class="box">
+                <img src="wed1.jpg" alt="">
+                <h2 class="h-secondary center">Dhruv and Sakshi</h2>
+                <p class="center">38 photos, Delhi,India</p>
+            </div>
+            <div class="box">
+                <img src="wed3.jpg" alt="">
+                <h2 class="h-secondary center">Bhuvi and divu</h2>
+                <p class="center">38 photos, Mumbai,India</p>
+            </div>
+            <div class="box">
+                <img src="wed4.jpg" alt="">
+                <h2 class="h-secondary center">Jay and Ruhi</h2>
+                <p class="center">38 photos, Lucknow,India</p>
+            </div>
+            
+        </div>
+        
+        <button class="btn">View more wedding ~</button>
+    </section>
+</body>
+</html>
